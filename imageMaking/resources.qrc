@@ -1,0 +1,45 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/保存.png</file>
+        <file>picture/表情.png</file>
+        <file>picture/滤镜.png</file>
+        <file>picture/涂鸦.png</file>
+        <file>picture/退出.png</file>
+        <file>picture/文字.png</file>
+        <file>picture/圆角.png</file>
+        <file>picture/多边形.png</file>
+        <file>picture/背景.png</file>
+        <file>picture/布局.png</file>
+        <file>picture/方向.png</file>
+        <file>picture/画中画2.png</file>
+        <file>picture/剪裁.png</file>
+        <file>picture/模糊图标.png</file>
+        <file>picture/内边距.png</file>
+        <file>picture/形状.png</file>
+        <file>picture/18.jpg</file>
+        <file>picture/04.jpg</file>
+        <file>picture/06.jpg</file>
+        <file>picture/13.jpg</file>
+        <file>picture/15.jpg</file>
+        <file>picture/19.jpg</file>
+        <file>picture/添加.png</file>
+        <file>picture/分 享.png</file>
+        <file>picture/蝴蝶.png</file>
+        <file>picture/小熊.png</file>
+        <file>picture/猫爪.png</file>
+        <file>picture/star.png</file>
+        <file>picture/旋转.png</file>
+        <file>picture/水平对齐.png</file>
+        <file>picture/删 除.png</file>
+        <file>picture/放大.png</file>
+        <file>picture/缩小.png</file>
+        <file>picture/替换.png</file>
+        <file>picture/垂直居中.png</file>
+        <file>picture/下箭头.png</file>
+        <file>picture/左箭头.png</file>
+        <file>picture/上箭头.png</file>
+        <file>picture/右箭头.png</file>
+        <file>picture/九格切图.png</file>
+        <file>picture/关闭.png</file>
+    </qresource>
+</RCC>
