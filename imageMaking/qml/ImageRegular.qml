@@ -9,7 +9,8 @@ Item {
 
     function imagePath(){
         var time = Qt.formatDateTime(new Date(), "yyyyMMdd-hh-mm-ss-zzz");
-        var path = "/storage/emulated/0/DCIM/Camera" + time +".jpg";//使用当前时间作为图片的保存名
+        var path = "./" + time +".jpg";//使用当前时间作为图片的保存名
+        ///storage/emulated/0/DCIM/Camera
         console.log(path)
         return path
     }
