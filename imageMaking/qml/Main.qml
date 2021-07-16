@@ -30,8 +30,8 @@ App {
                     anchors.horizontalCenter: app.horizontalCenter
                 }
             }
-            Windowpage{
-                id: windowpage
+            Carousel{
+                id: carousel
                 width: parent.width
                 height: parent.height*0.5
                 anchors.top: marginRect.bottom
@@ -42,7 +42,7 @@ App {
                 height: parent.width*2/3
                 columns: 3
                 anchors.horizontalCenter: parent.horizontalCenter
-                anchors.top: windowpage.bottom
+                anchors.top: carousel.bottom
                 AppButton{
                     id:gridBtn
                     icon: IconType.th
@@ -54,7 +54,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"              //点击时颜色
                     onClicked: {
-                        mypage.navigationStack.push(jigsawCutaway)
+                        mypage.navigationStack.push(pageCutaway)
                     }
                 }
                 AppButton{
@@ -67,7 +67,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"
                     onClicked: {
-                        mypage.navigationStack.push(jigsawDecorate)
+                        mypage.navigationStack.push(pageDecorate)
                     }
                 }
                 AppButton{
@@ -80,7 +80,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"
                     onClicked: {
-                        mypage.navigationStack.push(jigsawShape)
+                        mypage.navigationStack.push(pageshape)
                     }
                 }
                 AppButton{
@@ -93,7 +93,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"
                     onClicked: {
-                        mypage.navigationStack.push(jigsawLong)
+                        mypage.navigationStack.push(pageLong)
                     }
                 }
                 AppButton{
@@ -106,7 +106,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"
                     onClicked: {
-                        mypage.navigationStack.push(jigsawRegular)
+                        mypage.navigationStack.push(pageRegular)
                     }
                 }
                 AppButton{
@@ -119,7 +119,7 @@ App {
                     textColor: "white"
                     backgroundColorPressed: "#FFA500"
                     onClicked: {
-                        mypage.navigationStack.push(jigsawFree)
+                        mypage.navigationStack.push(pageFree)
                     }
                 }
             }
@@ -130,37 +130,37 @@ App {
 
 
     Component{
-        id:jigsawCutaway
-        JigsawCutaway{
+        id:pageCutaway
+        PageCutaway{
         }
     }
     Component{
-        id:jigsawDecorate
-        JigsawDecorate{
+        id:pageDecorate
+        PageDecorate{
 
         }
     }
 
     Component{
-        id:jigsawShape
-        JigsawShape{
+        id:pageshape
+        PageShape{
 
         }
     }
     Component{
-        id:jigsawLong
-        JigsawLong{
+        id:pageLong
+        PageLong{
 
         }
     }Component{
-        id:jigsawRegular
-        JigsawRegular{
+        id:pageRegular
+        PageRegular{
 
         }
     }
     Component{
-        id:jigsawFree
-        JigsawFree{
+        id:pageFree
+        PageFree{
 
         }
     }

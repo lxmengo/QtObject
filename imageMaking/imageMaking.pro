@@ -65,12 +65,12 @@ DISTFILES += \
     qml/ImageFree.qml \
     qml/ImageLong.qml \
     qml/ImageRegular.qml \
-    qml/JigsawCutaway.qml \
-    qml/JigsawDecorate.qml \
-    qml/JigsawFree.qml \
-    qml/JigsawLong.qml \
-    qml/JigsawRegular.qml \
-    qml/JigsawShape.qml
+    qml/PageCutaway.qml \
+    qml/PageDecorate.qml \
+    qml/PageFree.qml \
+    qml/PageLong.qml \
+    qml/PageRegular.qml \
+    qml/PageShape.qml
 
 HEADERS +=
 
